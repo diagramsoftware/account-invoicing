@@ -1,13 +1,11 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#   * account_invoice_merge
+#	* account_invoice_merge
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-09 13:57+0000\n"
-"PO-Revision-Date: 2015-06-09 13:57+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -41,7 +39,7 @@ msgid "Are you sure you want to merge these invoices ?"
 msgstr ""
 
 #. module: account_invoice_merge
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:49
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py:29
 #, python-format
 msgid "At least one of the selected invoices is %s!"
 msgstr ""
@@ -59,6 +57,11 @@ msgstr ""
 #. module: account_invoice_merge
 #: field:invoice.merge,create_date:0
 msgid "Created on"
+msgstr ""
+
+#. module: account_invoice_merge
+#: field:invoice.merge,display_name:0
+msgid "Display Name"
 msgstr ""
 
 #. module: account_invoice_merge
@@ -84,6 +87,11 @@ msgstr ""
 #. module: account_invoice_merge
 #: field:invoice.merge,keep_references:0
 msgid "Keep references from original invoices"
+msgstr ""
+
+#. module: account_invoice_merge
+#: field:invoice.merge,__last_update:0
+msgid "Last Modified on"
 msgstr ""
 
 #. module: account_invoice_merge
@@ -114,37 +122,43 @@ msgid "Merge Partner Invoice"
 msgstr ""
 
 #. module: account_invoice_merge
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:56
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py:37
 #, python-format
 msgid "Not all invoices are at the same company!"
 msgstr ""
 
 #. module: account_invoice_merge
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:65
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py:46
 #, python-format
 msgid "Not all invoices are at the same currency!"
 msgstr ""
 
 #. module: account_invoice_merge
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:68
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py:49
 #, python-format
 msgid "Not all invoices are at the same journal!"
 msgstr ""
 
 #. module: account_invoice_merge
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:59
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py:40
 #, python-format
 msgid "Not all invoices are for the same partner!"
 msgstr ""
 
 #. module: account_invoice_merge
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:62
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py:43
 #, python-format
 msgid "Not all invoices are of the same type!"
 msgstr ""
 
 #. module: account_invoice_merge
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:53
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py:52
+#, python-format
+msgid "Not all invoices have the same Partner Bank Account!"
+msgstr ""
+
+#. module: account_invoice_merge
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py:34
 #, python-format
 msgid "Not all invoices use the same account!"
 msgstr ""
@@ -155,7 +169,7 @@ msgid "Please note that:"
 msgstr ""
 
 #. module: account_invoice_merge
-#: code:addons/account_invoice_merge/wizard/invoice_merge.py:40
+#: code:addons/account_invoice_merge/wizard/invoice_merge.py:23
 #, python-format
 msgid "Please select multiple invoice to merge in the list view."
 msgstr ""
@@ -164,3 +178,4 @@ msgstr ""
 #: view:invoice.merge:account_invoice_merge.view_invoice_merge
 msgid "or"
 msgstr ""
+
