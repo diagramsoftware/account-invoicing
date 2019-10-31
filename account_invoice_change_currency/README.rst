@@ -25,13 +25,22 @@ Account Invoice - Change Currency
 
 |badge1| |badge2| |badge3| |badge4| |badge5| 
 
+
 ==================================
 Update currency of Account Invoice
 ==================================
 
-This module allows users to update the currency of Invoices (in draft state) by wizard.
-After update to new currency, all the unit prices of invoice lines will be recomputed
-to new currency, thus the Total amounts (tax and without tax) of Invoice will be in the new currency also
+This module allows users to update the currency of Invoices (in draft state) by
+a button Update Currency at the invoice form.
+After update to new currency, all the unit prices of invoice lines will be
+recomputed to new currency, thus the Total amounts (tax and without tax) of
+Invoice will be in the new currency also
+
+Also this module allows user to set a custom rate that will be take to recompute
+all lines. By default the custom rate proposed is the rate between invoice
+currency and base currency (company currency), after the first coversion the
+custom rate will be proposed by default between last currency and invoice
+currency.
 
 **Table of contents**
 
@@ -41,8 +50,6 @@ to new currency, thus the Total amounts (tax and without tax) of Invoice will be
 Configuration
 =============
 
-Configuration
-=============
 
 The exchange rate will be configured in
 Accounting > Configuration > Multi-Currencies > Currencies
@@ -50,8 +57,6 @@ Accounting > Configuration > Multi-Currencies > Currencies
 Usage
 =====
 
-Usage
-=====
 To use this module, the user must be in group Accounting & Finance / Adviser
 to be able to update currency of Invoices
 
@@ -76,8 +81,6 @@ Authors
 Contributors
 ~~~~~~~~~~~~
 
-Contributors
-------------
 
 * Duc, Dao Dong <duc.dd@komit-consulting.com> (https://komit-consulting.com)
 
